@@ -77,7 +77,7 @@ const MyOrders = () => {
       <div className="flex justify-center my-10">
         <button
           onClick={clearOrders}
-          className="bg-fuchsia-100 hover:bg-fuchsia-200 text-stone-800 font-semibold py-2 px-6 rounded transition"
+          className="bg-slate-700 hover:bg-slate-800 text-white text-stone-800 font-semibold py-2 px-6 rounded transition"
           aria-label="Clear all orders"
         >
           Clear Order History
@@ -87,7 +87,7 @@ const MyOrders = () => {
       {/* Continue Shopping */}
       <div className="text-center mb-10">
         <Link to="/shop">
-          <button className="bg-green-100 hover:bg-green-200 px-6 py-2 rounded text-lg">
+          <button className="bg-blue-800 hover:bg-blue-600 px-6 py-2 rounded text-lg text-white">
             Continue to Shop
           </button>
         </Link>

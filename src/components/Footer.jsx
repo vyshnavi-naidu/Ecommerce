@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div className="bg-fuchsia-100 w-full flex flex-col items-center text-center py-10 px-4">
+    <div className="bg-slate-600 text-white w-full flex flex-col items-center text-center py-10 px-4">
       {/* Tagline */}
       <p className="italic max-w-2xl mb-6">
         Comfortwear served, raw and pure. stay.COMFY gang is ready to work and play, whenever, wherever.
@@ -24,37 +25,26 @@ const Footer = () => {
 
       {/* Social Media Icons */}
       <div className="flex space-x-6 mb-6">
-        <a
-          href="https://facebook.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Facebook"
-          className="text-xl hover:text-blue-600 transition"
-        >
-          <FaFacebookF />
-        </a>
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-          className="text-xl hover:text-pink-500 transition"
-        >
-          <FaInstagram />
-        </a>
-        <a
-          href="https://twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Twitter"
-          className="text-xl hover:text-sky-500 transition"
-        >
-          <FaTwitter />
-        </a>
+         <a
+              href="https://github.com/vyshnavi-naidu/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:scale-110 transition-transform duration-300"
+            >
+              <FaGithub size={30} className="hover:text-rose-300" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/vasamsetti-vyshnavi"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:scale-110 transition-transform duration-300"
+            >
+              <CiLinkedin size={32} className="hover:text-blue-400" />
+            </a>
       </div>
 
       {/* Copyright */}
-      <p className="text-sm text-stone-600">
+      <p className="text-sm text-white">
         © 2025 Stay.COMFY — All rights reserved.
       </p>
     </div>

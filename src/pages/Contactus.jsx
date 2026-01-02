@@ -51,7 +51,7 @@ const Contactus = () => {
       </div>
 
       {/* Main Content */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-16 px-4 md:px-20 items-center bg-fuchsia-100 py-10 rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-16 px-4 md:px-20 items-center bg-slate-700 py-10 rounded-lg text-white">
         
         {/* Left: Image */}
         <div className="flex justify-center">
@@ -64,8 +64,8 @@ const Contactus = () => {
 
         {/* Right: Form */}
         <div className="m-4 md:m-10">
-          <h2 className="text-2xl text-stone-800 font-semibold mb-4">Write to Us</h2>
-          <p className="text-stone-700 mb-6">Email: info.comfy@gmail.com</p>
+          <h2 className="text-2xl font-semibold mb-4">Write to Us</h2>
+          <p className="mb-6">Email: info.comfy@gmail.com</p>
 
           <form className="space-y-5 flex flex-col" onSubmit={Submit}>
             <div>
@@ -109,7 +109,7 @@ const Contactus = () => {
 
             <button
               type="submit"
-              className="bg-stone-700 hover:bg-stone-800 text-white px-6 py-2 rounded transition"
+              className="bg-blue-600 hover:bg-stone-800 text-white px-6 py-2 rounded transition"
             >
               Submit
             </button>

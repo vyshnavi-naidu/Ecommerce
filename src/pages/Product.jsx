@@ -128,13 +128,13 @@ const Product = () => {
             <div className="space-y-3">
               <button
                 onClick={() => Addtocart(product)}
-                className="bg-fuchsia-200 hover:bg-fuchsia-300 w-full md:w-80 py-2 rounded"
+                className="bg-slate-700 hover:bg-slate-800 text-white w-full md:w-80 py-2 rounded"
               >
                 Add to Cart
               </button>
               <button
                 onClick={buyNowFromProduct}
-                className="bg-green-200 hover:bg-green-300 w-full md:w-80 py-2 rounded"
+                className="bg-blue-800 hover:bg-blue-600 text-white w-full md:w-80 py-2 rounded"
               >
                 Buy Now
               </button>

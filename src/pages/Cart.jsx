@@ -187,13 +187,13 @@ const Cart = () => {
                   <div className="flex flex-col gap-3 mt-auto pt-4 w-full sm:w-50">
                     <button
                       onClick={() => remove(item.id)}
-                      className="bg-red-200 hover:bg-red-300 px-4 py-2 rounded w-full sm:w-auto"
+                      className="bg-blue-800 hover:bg-blue-600 text-white px-4 py-2 rounded w-full sm:w-auto"
                     >
                       Remove
                     </button>
                     <button
                       onClick={() => buyNow(item, index)}
-                      className="bg-green-200 hover:bg-green-300 px-4 py-2 rounded w-full sm:w-auto"
+                      className="bg-slate-700 hover:bg-slate-800 text-white px-4 py-2 rounded w-full sm:w-auto"
                     >
                       Place Order
                     </button>
@@ -213,7 +213,7 @@ const Cart = () => {
             {/* Buy All Now Button */}
             <button
               onClick={buyAllNow}
-              className="bg-green-300 px-4 py-2 rounded mt-4 hover:bg-green-400 w-full sm:w-auto"
+              className="bg-slate-800 px-4 py-2 rounded mt-4 hover:bg-slate-600 w-full sm:w-auto"
             >
               Buy All Now
             </button>
